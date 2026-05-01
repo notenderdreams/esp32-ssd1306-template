@@ -1,0 +1,11 @@
+[template]
+cargo_generate_version = ">=0.18.0"
+ignore = [
+    "target",
+    "Cargo.lock",
+]
+
+[placeholders.project-description]
+type = "string"
+prompt = "Project description"
+default = "A simple bare-metal (no_std) Rust application for ESP32 with SSD1306 display connection"
